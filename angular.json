@@ -66,14 +66,14 @@
           },
           "configurations": {
             "production": {
-              "browserTarget": "devastator222222:build:production"
+              "browserTarget": "devastator:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "devastator222222:build"
+            "browserTarget": "devastator:build"
           }
         },
         "test": {
@@ -110,15 +110,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "devastator222222:serve"
+            "devServerTarget": "devastator:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "devastator222222:serve:production"
+              "devServerTarget": "devastator:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "devastator222222"
+  "defaultProject": "devastator"
 }
