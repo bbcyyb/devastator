@@ -33,3 +33,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ```shell
 ng generate module app-routing --flat --module=app
 ```
+
+- Generate shared module
+
+```shell
+ng generate module shared
+```

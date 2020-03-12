@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Hello world!';
+  changeLogs = [
+    'Create app-routing.module.ts',
+    'Create shared module',
+    'Create core module'
+  ];
 }
