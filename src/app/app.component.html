@@ -1,7 +1,10 @@
 <div>
   <h1>{{title}}</h1>
-  This is a Augular demo.
-  <h2>ChangeLog</h2>
+  <p>This is Header</p>
+  <p>===============================</p>
+  <router-outlet></router-outlet>
+  <p>===============================</p>
+  <h1>This is Footer</h1>
   <ul>
     <li *ngFor="let changeLog of changeLogs">
       <span>{{changeLog}}</span>
