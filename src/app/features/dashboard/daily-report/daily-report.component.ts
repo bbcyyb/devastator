@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DailyReportService } from 'src/app/services/daily-report.service';
 
 @Component({
   selector: 'app-daily-report',
@@ -8,7 +9,9 @@ import { Component, OnInit } from '@angular/core';
 export class DailyReportComponent implements OnInit {
   title = 'This is DailyReport Page.';
 
-  ngOnInit(): void {
-  }
+  constructor(private service: DailyReportService) {}
 
+  ngOnInit(): void {
+    const result = this.service.getAll();
+  }
 }
