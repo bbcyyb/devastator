@@ -4,11 +4,12 @@ import { ContentLayoutComponent } from './content-layout/content-layout.componen
 import { AuthLayoutComponent } from './auth-layout/auth-layout.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
+import { ChartComponent } from './chart/chart.component';
 
 
 
 @NgModule({
-  declarations: [ContentLayoutComponent, AuthLayoutComponent, FooterComponent, HeaderComponent],
+  declarations: [ContentLayoutComponent, AuthLayoutComponent, FooterComponent, HeaderComponent, ChartComponent],
   imports: [
     CommonModule
   ]
