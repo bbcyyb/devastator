@@ -32,7 +32,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ```shell
 ng generate module app-routing --flat --module=app
-OR
+```
+
+- Generate dashboard-routing.module.ts
+
+```shell
 ng generate module features/dashboard/dashboard-routing --flat --module=dashboard
 ```
 

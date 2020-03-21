@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { DailyReportService } from 'src/app/services/daily-report.service';
+import { DailyReportService } from 'src/app/core/services/daily-report.service';
 
 @Component({
   selector: 'app-daily-report',

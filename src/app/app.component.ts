@@ -6,10 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Hello world!';
-  changeLogs = [
-    'Create app-routing.module.ts',
-    'Create shared module',
-    'Create core module'
-  ];
 }
