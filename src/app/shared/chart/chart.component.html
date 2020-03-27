@@ -1,1 +1,8 @@
-<p>chart works!</p>
+<!-- wrapping div required for height, width to work-->
+<div>
+    <canvas 
+    #ref
+    [attr.height]="height"
+    [attr.width]="width"
+    (click)="handleOnClick($event)"></canvas>
+</div>
