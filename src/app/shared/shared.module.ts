@@ -4,10 +4,11 @@ import { ChartComponent } from './chart/chart.component';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
-  declarations: [ ChartComponent ],
+  declarations: [ChartComponent],
   imports: [
     CommonModule,
     RouterModule
-  ]
+  ],
+  exports: [ChartComponent]
 })
 export class SharedModule { }
